@@ -76,5 +76,11 @@ Here's a basic example of how the bot responds to a "hello" command:
 To run the bot, save the code as `main.py` and execute it: 
 
     python main.py
+
+ # More 
+ If you want more bots from GitHub, go to [Discord-bot
+](https://github.com/Anteste/Discord-bot/blob/master/README.md) and [discord_bot.py
+/](https://github.com/AlexFlipnote/discord_bot.py/blob/master/README.md)
+
 # Link 
 [Discord](https://discord.com/)
