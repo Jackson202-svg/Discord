@@ -63,6 +63,18 @@ Cogs/Modules: Separate .py files (e.g., `utility.py`) for organizing commands in
     1.  **Install `discord.py`:**
         ```bash
         pip install discord.py
-    
+
+ Create a Discord Bot Application: Follow the instructions on the Discord Developer Portal to create a bot and obtain its token. 
+ Usage
+Here's a basic example of how the bot responds to a "hello" command:
+
+    import discord
+    from discord.ext import commands
+
+    # ... (rest of the bot code as shown above) ...
+
+To run the bot, save the code as `main.py` and execute it: 
+
+    python main.py
 # Link 
 [Discord](https://discord.com/)
