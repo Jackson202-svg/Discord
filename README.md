@@ -24,7 +24,7 @@ Environment File: `.env` (to store your token securely).
 Data Files: `.json` or `.csv` for storing lists, settings, or data.
 Cogs/Modules: Separate .py files (e.g., `utility.py`) for organizing commands into categories, loaded by the main file. 
 
-[import discord
+**import discord
 from discord.ext import commands
 
 # Define intents (e.g., for messages)
@@ -44,7 +44,7 @@ async def hello(ctx):
     await ctx.send('Hello there!')
 
 # Run the bot (replace with your actual token)
-client.run("YOUR_BOT_TOKEN_HERE")]
+client.run("YOUR_BOT_TOKEN_HERE")**
 
 
 # Link 
