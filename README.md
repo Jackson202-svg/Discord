@@ -44,5 +44,25 @@ Cogs/Modules: Separate .py files (e.g., `utility.py`) for organizing commands in
 
     # Replace 'YOUR_BOT_TOKEN' with your actual bot token
     bot.run('YOUR_BOT_TOKEN')
+
+    
+    **Explanation:**
+    *   The first line ````python```` indicates the start of a Python code block.
+    *   The subsequent lines contain the Python code you want to display.
+    *   The final line ```` ` `` ```` closes the code block.
+
+ **Add Explanations and Context:** Before or after the code block, provide a clear description of what the code does, its purpose, and any necessary instructions for users, such as how to obtain a bot token or install dependencies.
+
+    ```markdown
+    # My Awesome Discord Bot
+
+    This is a simple Discord bot built with `discord.py`.
+
+    ## Installation
+
+    1.  **Install `discord.py`:**
+        ```bash
+        pip install discord.py
+    
 # Link 
 [Discord](https://discord.com/)
