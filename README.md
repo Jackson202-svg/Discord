@@ -24,28 +24,24 @@ Environment File: `.env` (to store your token securely).
 Data Files: `.json` or `.csv` for storing lists, settings, or data.
 Cogs/Modules: Separate .py files (e.g., `utility.py`) for organizing commands into categories, loaded by the main file. 
 
-**import discord
-from discord.ext import commands
+    ```python
+    import discord
+    from discord.ext import commands
 
-# Define intents (e.g., for messages)
-intents = discord.Intents.default()
-intents.message_content = True
+    intents = discord.Intents.default()
+    intents.message_content = True # Required for accessing message content
 
-# Initialize client with intents
-client = commands.Bot(command_prefix='!', intents=intents)
+    bot = commands.Bot(command_prefix='!', intents=intents)
 
-@client.event
-async def on_ready():
-    print(f'Logged in as {client.user}!')
+    @bot.event
+    async def on_ready():
+        print(f'Logged in as {bot.user}')
 
-# Example command: !hello
-@client.command()
-async def hello(ctx):
-    await ctx.send('Hello there!')
+    @bot.command()
+    async def hello(ctx):
+        await ctx.send(f'Hello {ctx.author.mention}!')
 
-# Run the bot (replace with your actual token)
-client.run("YOUR_BOT_TOKEN_HERE")**
-
-
+    # Replace 'YOUR_BOT_TOKEN' with your actual bot token
+    bot.run('YOUR_BOT_TOKEN')
 # Link 
 [Discord](https://discord.com/)
