@@ -23,7 +23,8 @@ Main Script: `main.py` or `bot.js` (the entry point).
 Environment File: `.env` (to store your token securely).
 Data Files: `.json` or `.csv` for storing lists, settings, or data.
 Cogs/Modules: Separate .py files (e.g., `utility.py`) for organizing commands into categories, loaded by the main file. 
-
+    
+    
     ```python
     import discord
     from discord.ext import commands
