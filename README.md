@@ -80,7 +80,15 @@ To run the bot, save the code as `main.py` and execute it:
  # More 
  If you want more bots from GitHub, go to [Discord-bot
 ](https://github.com/Anteste/Discord-bot/blob/master/README.md) and [discord_bot.py
-/](https://github.com/AlexFlipnote/discord_bot.py/blob/master/README.md)
+/](https://github.com/AlexFlipnote/discord_bot.py/blob/master/README.md) for more info about how to make a Discord bot. Go to [To make a Discord bot, you register it in the Discord Developer Portal, get a secret token, enable necessary intents (like Message Content), and then use a programming language (Python, JavaScript) and library (discord.py, discord.js) to write code that makes it do things, finally inviting it to your server via an OAuth2 link with chosen permissions. 
+Here's a step-by-step guide:
+Part 1: Setting Up Your Bot in Discord
+Go to Developer Portal: Visit the Discord Developer Portal and log in.
+New Application: Click "New Application," give it a name (your bot's name), and create it.
+Create the Bot User: In the left menu, go to the "Bot" tab, click "Add Bot," and confirm.
+Get Your Token: Under the "Bot" tab, click "Reset Token" (or "Copy Token") to get your unique bot token. Keep this secret!.
+Enable Intents: In the "Bot" tab, scroll down and enable PRESENCE INTENT, SERVER MEMBERS INTENT, and MESSAGE CONTENT INTENT, then save changes.
+Generate Invite Link (OAuth2): Go to the "OAuth2" -> "URL Generator" tab, check the bot scope, select permissions (e.g., Administrator for testing, or specific ones like "Send Messages"), and copy the generated URL. ](https://www.google.com/search?q=how+to+make+a+discord+bot&rlz=1CAEDYW_enJP1176&oq=how+to+make+a++discord+bot&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDkzNDFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8&safe=active&ssui=on) 
 
 # Link 
 [Discord](https://discord.com/)
